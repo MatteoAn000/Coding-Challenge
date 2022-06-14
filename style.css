@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+ /*Sfondo*/
+.background{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ /*Box elementi*/
+.container{
+  height: 800px;
+  width: 1200px;
+  margin-top: 50px ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+ /*Logo*/
+.logo{
+  width: 200px;
+  margin-top: 80px;
+}
+ /*Header*/
+.inizio{
+  text-align: center;
+}
+ /*Input button*/
+.container2{
+  text-align: center;
+  background-color: #00ff00;
+  margin: auto;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+}
+ /*Titolo pagina*/
+.titolo{
+  color: #00ff00;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+ /*Menu navigazione*/
+.input{
+  padding-top: 10px;
+}
+ /*Sezione monopattini*/
+.monopattino{
+  font-size: 22px;
+  display: inline-block;
+  line-height: 40px;
+}
+.sezione{
+  width: 80%;
+  color: white;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+ /*Via*/
+ .Via{
+  line-height: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+ /*Stato carica*/
+.arancio{
+  background-color: orange;
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.verde{
+  background-color: green;
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+}
+.rosso{
+  background-color: red;
+  width: 10%;
+  height: 30px;
+  border-radius: 5px;
+}
+.carica{
+  line-height: 10px;
+}
